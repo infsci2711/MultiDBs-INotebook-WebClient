@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-2-23, 20:25:56
+    Author     : yingxinxie
+*/
+
+body {
+    text-align: center;
+    background-image: url(../image/restaurant.png);
+}
+
+.content{
+    min-height: 280px;
+    position: relative;
+    z-index: 0;
+    margin-top: 150px;
+/*    background: #0078d8;
+    box-shadow: inset 0 -1px 6px rgba(0,0,0,.1);*/
+}
+
+.wrapper{
+    min-height: 360px;
+    width: 340px;
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 90;
+}
+
+.loginform{
+    
+    width:340px;
+    margin-top: 38px;   
+}
+
+.regform{
+    width:340px;
+    margin-top: 38px;
+}
+
+.nav a{
+    width: 294px;
+    margin-left: 222px;
+}
+
+
+.username_input_wrapper{
+    margin-top:18px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.email_input_wrapper{
+    margin-top:18px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.password_input_wrapper{
+    margin-top:18px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.button_wrapper{
+    margin-top:20px;
+}
+.username_input_wrapper input{
+    background: #e7f1f8;
+font-size: 15px;
+border: 1px solid #1672B9;
+border-radius: 5px;
+padding: 8px 10px;
+box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15);
+width: 80%;
+margin: 0;
+color: #555;
+line-height: 17px;
+}
+.email_input_wrapper input{
+    background: #e7f1f8;
+font-size: 15px;
+border: 1px solid #1672B9;
+border-radius: 5px;
+padding: 8px 10px;
+box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15);
+width: 80%;
+margin: 0;
+color: #555;
+line-height: 17px;
+}
+
+.password_input_wrapper input{
+    background: #e7f1f8;
+font-size: 15px;
+border: 1px solid #1672B9;
+border-radius: 5px;
+padding: 8px 10px;
+box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15);
+width: 80%;
+margin: 0;
+color: #555;
+line-height: 17px;
+}
+
+.button_wrapper button{
+    border: 1px solid #1D80CF;
+width: 294px;
+text-align: center;
+font-size: 15px;
+color: #fff;
+text-shadow: 0 1px 1px rgba(0,0,0,.2);
+background: #80C3F7;
+background: -webkit-gradient(linear,left top,left bottom,from(#80c3f7),to(#6bbaf8));
+box-shadow: inset 0 1px 0 rgba(255,255,255,.3),0 1px 1px rgba(50,50,50,.05);
+border-radius: 5px;
+cursor: pointer;
+line-height: 33px;
+display: block;
+padding: 0 15px;
+outline: 0;
+margin-left: 23px;
+}
+

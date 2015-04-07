@@ -1,5 +1,5 @@
 $(function() {
-    $baseURL = "http://localhost:7654/User/login/";
+    $baseURL = "http://54.152.29.103:7654/User/login/";
 
     $email = $(".email_input_wrapper > input");
     $password = $(".password_input_wrapper > input");

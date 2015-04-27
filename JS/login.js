@@ -1,17 +1,17 @@
 $(function() {
-    $baseURL = "http://54.152.29.103:7654/User/login/";
+    $baseURL = "http://colfusion.exp.sis.pitt.edu/notebookrest/User/login/"; //"http://54.152.29.103:7654/User/login/";
 
     $email = $(".email_input_wrapper > input");
     $password = $(".password_input_wrapper > input");
 
     $(".login-button").on("click", function() {
-        if ($email.val() == "") alert("1");
-        else if ($password.val() == "") alert("2");
+        if ($email.val() === "") alert("1");
+        else if ($password.val() === "") alert("2");
         else {
             var person = {
                 email: $email.val(),
                 password: $password.val()
-            }
+            };
             console.log(JSON.stringify(person));
             $.ajax({
                 type: 'POST',
